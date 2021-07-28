@@ -1,0 +1,82 @@
+h2.konfirmtxt {
+    font-size: 165% !important;
+    text-align: center !important;
+}
+
+.cekjadwal {
+    background-color: #ffc800 !important;
+    border-color: #ffc800 !important;
+}
+
+.cekjadwal:hover {
+    background-color: #c09600 !important;
+    border-color: #c09600 !important;
+}
+
+body::-webkit-scrollbar {
+    display: none !important;
+}
+
+
+/* Height based media Query */
+
+@media only screen and (min-height: 652px) {
+    .btnkonfirmasi {
+        padding: 90px 0px 100px 0px !important;
+    }
+}
+
+@media only screen and (min-height: 870px) {
+    .btnkonfirmasi {
+        padding: 170px 0px 150px 0px !important;
+    }
+}
+
+@media only screen and (min-height: 1000px) {
+    .btnkonfirmasi {
+        padding: 230px 0px 230px 0px !important;
+    }
+}
+
+@media only screen and (min-height: 1865px) {
+    .kontenkonfirm {
+        padding: 450px 0px 700px 0px !important;
+    }
+}
+
+
+/* Width based media Query */
+
+@media only screen and (min-width: 375px) {
+    h2.konfirmtxt {
+        font-size: 175% !important;
+        text-align: center !important;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    h2.konfirmtxt {
+        font-size: 200% !important;
+        text-align: center !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    h2.konfirmtxt {
+        font-size: 200% !important;
+        text-align: left !important;
+    }
+    body::-webkit-scrollbar {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    h2.konfirmtxt {
+        font-size: 290% !important;
+        text-align: left !important;
+    }
+    body::-webkit-scrollbar {
+        display: none !important;
+    }
+}

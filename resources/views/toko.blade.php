@@ -133,7 +133,7 @@
                 <ul class="probootstrap-contact-details">
                   <li>
                     <span class="text-uppercase"><span class="ion-ios-telephone"></span>Whatsapp</span>
-                    +62819-9900-0099
+                    +62877-8139-8394
                   </li>
                   <li>
                     <span class="text-uppercase"><span class="ion-location"></span>Alamat</span>

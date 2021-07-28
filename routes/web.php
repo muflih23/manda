@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'WelcomePage@index');
 
+Route::get('/{id}/konfirmasi', 'KonfirmasiController@konfirmasi');
+
 Route::get('/toko', 'TokoController@index');
 Route::get('/tokosearch', 'TokoController@tokosearch');
 

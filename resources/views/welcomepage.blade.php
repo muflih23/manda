@@ -104,7 +104,7 @@
         <div class="row">
           @foreach($pegunungan as $p)
           <div class="col-lg-3 col-md-6 probootstrap-animate mb-3">
-            <a href="https://api.whatsapp.com/send?phone=6281999000099&text=Saya%20tertarik%20untuk%20melakukan%20perjalanan%20bersama%20guide%20Teman%20Mendaki" class="probootstrap-thumbnail">
+            <a href="/{{ $p->id }}/konfirmasi" class="probootstrap-thumbnail">
               <img src="pegunungan/{{ $p->foto }}" alt=" {{ $p->gunung }} " class="img-fluid">
               <div class="probootstrap-text">
                 <h3>{{ $p->gunung }}</h3>
@@ -180,7 +180,7 @@
                 <ul class="probootstrap-contact-details">
                   <li>
                     <span class="text-uppercase"><span class="ion-ios-telephone"></span>Whatsapp</span>
-                    +62819-9900-0099
+                    +62877-8139-8394
                   </li>
                   <li>
                     <span class="text-uppercase"><span class="ion-location"></span>Alamat</span>
